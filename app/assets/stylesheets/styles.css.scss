@@ -1,0 +1,17 @@
+$baseFontFamily: Roboto;
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import "bootstrap";
+
+body {
+	padding-top: 60px;
+}
+
+@import "bootstrap-responsive";
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	 	a {
+	 		color:$gray;
+	 	}
+}
